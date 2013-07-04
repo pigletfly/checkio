@@ -1,0 +1,19 @@
+"It’s incredible how exhausted I feel already." Sofia told Stephen. "I’ve scratched myself a million times on the old, rusty corners of this ship." she spoke louder as she walked closer to Stephen. She even limped a little with the hope that Stephen would notice and ask her to stop cleaning.
+"Yes, there is a lot of work to do," Stephen said while carefully reading the list from Nikola. He wasn’t paying Sofia much attention. "But that’s fine, we’ll get everything finished today. Oh, and by the way, I saw a huge pile of stuff that needs to be sorted by the captains cabin. Some of this junk should be in a museum..."
+"When did you get so smart?" Sofia mumbled as she sorted out the details.
+"There you are Sofia! I was looking for you on the bridge." said a new voice.
+"Hello Nikola. As you can see, there is quite a lot of work to do here." Sofia said glaring at Stephen, hoping for any degree of support or help from him. More...
+
+
+Help Nikola develop a password security check module for Sofia. The password will be considered strong enough if its length is greater than or equal 10 symbols, it has at least one number, one uppercase letter and one lowercase letter in it.
+
+Input data: A string that is a password.
+
+Output data: The output will be true if the password is safe.
+
+checkio('A1213pokl')==False
+checkio('bAse730onE')==True
+checkio('asasasasasasasaas')==False
+checkio('QWERTYqwerty')==False
+checkio('123456123456')==False
+checkio('QwErTy911poqqqq')==True
