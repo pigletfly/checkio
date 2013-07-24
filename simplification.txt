@@ -1,0 +1,18 @@
+Given a mathematical expression with brackets and with one variable as string (ex. "x*x*x + (x-1)*(x+1)"). Need to convert this to Polynomial (http://en.wikipedia.org/wiki/Polynomial). You can use only + - *. Power of "x" represented as multiplication.
+
+Final form must be in next format:
+СN*x*x*...(n times)...*x+CN1*x*x*...(n-1 times)...*x+...+C1*x+C0
+where
+CN, CN1 ...C1, C0 - constants, integers.
+if C = 0, then don't show this term (ex. 2*x*x+3)
+if C = 1, then don't show C. (ex. x*x+2*x).
+if C = -1, then don't show C, only "-". (ex. x*x-x).
+Terms must be in descend order, sorting by power of variable.
+
+Input: A expression as string.
+
+Output: A polynomial as string without whitespaces.
+
+Example:
+
+checkio("x*x*x+(x-1)*(x+1)") == "x*x*x+x*x-1"

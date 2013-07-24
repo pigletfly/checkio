@@ -1,0 +1,14 @@
+Given an positive ( > 0 ) integer N. You should find the smallest positive ( > 0 ) number of X, such that the product of its digits is equal to the number of N. If number X does not exist, then return 0. For one-digit numbers, the answer is a number itself.
+
+Hints: Remember about prime numbers (or numbers divided at non one digit prime number) and be careful with eternal loops.
+
+Input: An Integer.
+
+Output: An Integer.
+
+Example:
+checkio(20) == 45
+checkio(21) == 37
+checkio(17) == 0
+checkio(33) == 0
+checkio(5) == 5
