@@ -6,8 +6,8 @@ sys.setdefaultencoding('utf-8')
 import requests
 import json
 
-appid = "wxfe94f93c3aa355bf"
-secret = "dbed9355eaf42abfc51590538937642f"
+appid = ""
+secret = ""
 access_url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={appid}&secret={secret}"
 create_menu_url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token={token}"
 get_menu_url = "https://api.weixin.qq.com/cgi-bin/menu/get?access_token={token}"
