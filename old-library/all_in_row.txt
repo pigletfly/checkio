@@ -1,0 +1,24 @@
+You should try to find the shortest solution of this task.
+
+Sofia stepped over a pile of books on the Library floor and picked up a strange note on the librarian's desk.
+“Hey Stephen,” she whispered.
+“Yes?” he whispered back.
+“What do you think this note is about?
+“Well how should I...? Why are we whispering?” He asked getting louder.
+“SHUSH! We are in a Library. Be quiet!” She shot the response back at him. “There’s a bunch of lists on here...”
+“So sort them.”
+“Now why would I do that?”
+“Maybe because it’s a secret code or something.”
+“That would be AWESOME!” Sofia almost shouted.
+“Shhhh! We’re in a library!” Stephen scolded.
+There is a list that contains integers, list of integers or nested lists. Put all integer values into one list.
+
+Input data: A nested list or simple list.
+
+Output data: A one-dimensional list.
+
+Example:
+
+checkio([1, 2, 3]) == [1, 2, 3]
+checkio([1, [2, 2, 2], 4]) == [1, 2, 2, 2, 4]
+checkio([[[2]], [4, [5, 6, [6], 6, 6, 6], 7]]) == [2, 4, 5, 6, 6, 6, 6, 6, 7]

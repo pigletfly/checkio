@@ -1,0 +1,14 @@
+A median is a number in a list that is in between the highest numbers and the lowest numbers. If there is an even number of numbers, then there is no single middle value: the median is then defined as the mean or average of the two middle values. For this mission, you are given a list of integers. With it, you must separate the upper half of the numbers, from the lower half and find the median.
+
+If you would like more information, you can read about the subject on Wikipedia.
+
+Input: A list of integers.
+
+Output: A float.
+
+Example:
+
+checkio([1, 2, 3, 4, 5]) == 3
+checkio([3, 1, 2, 5, 3]) == 3
+checkio([1, 300, 2, 200, 1]) == 2
+checkio([3, 6, 20, 99, 10, 15]) == 12.5

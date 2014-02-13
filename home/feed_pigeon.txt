@@ -1,0 +1,11 @@
+When I start to feed my pigeon, a minute later two more fly by. And a minute later another 3. Then 4, and so on. One portion of food lasts a pigeon for a minute. In case there's not enough food for all the birds, the pigeons that came first, eat first. Pigeons are hungry animals and eat without stopping. If I have N portions of wheat, how many pigeons will be fed with at least one portion of wheat?
+Input: A quantity of portions wheat, a positive integer.
+
+Output: The number of fed pigeons, an integer.
+
+Example:
+
+checkio(1) == 1
+checkio(2) == 1
+checkio(5) == 3
+checkio(10) == 6
